@@ -1,3 +1,7 @@
-Autoencoder for Illumina 450k data.
+MANA Deep Learning Gene Function Prediction
 
-Reduce noise in methylation data by dimension reduction. 
+TODO:
+- hyperas is deprecated, switch to Talos
+
+Use mean TSS1500 methylation to predict GO terms per gene
+Architecture is autoencoder into softmax....idk if this is technically an autoencoder or just a normal dense nn
